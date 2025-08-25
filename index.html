@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container novbar">
+         <img src="./css/images/1.png" alt="">
+         <div>
+            <ul class="novbar-menus">
+                <li>
+                    <a href="">Product</a>
+                </li>
+                <li>
+                    <a href="">Customers</a>
+                </li>
+                <li>
+                    <a href="">Pricing</a>
+                </li>
+                <li>
+                    <a href="">Resources</a>
+                </li>
+            </ul>
+         </div>
+         <div class="novbar-btns">
+            <button class="novbar-btn1">Sign In</button>
+            <button class="novbar-btn2">Sign Up</button>
+         </div>
+         <img class="novbar-rasm3" src="./css/images/3.png" alt="">
+         <img class="toggle" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QBhUQEQ8TEBIPFhAQEBARDRUVFg8VFRIWGBcYGBUZHSggGholGxUTITIjJSorLi4uFx84ODQsNygtLisBCgoKDg0OGxAQGzcmICYuKy0rNS03LS8tLSstKy0tLS0tLS0uLS0rLS0tLi0tLS0wLS0tKy0vKy0tLS0wLy83Lf/AABEIAOEA4QMBEQACEQEDEQH/xAAbAAEAAQUBAAAAAAAAAAAAAAAABgIDBAUHAf/EAEEQAAEDAgAIDAIIBgMBAAAAAAABAgMEEQUWFyFUk9HSBhIVMUFRUlNhcYGUkaIHEyJCgqGxwRQjMnKSwjPi8DT/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAgMEBQYB/8QANREBAAECAgYJAwUAAwEBAAAAAAECEQMEFBVSkbHRBRITITFRU2GhFkFxIjKB4fAjwfFCBv/aAAwDAQACEQMRAD8A7iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHiqBQsqEurKPWhQ6dbZmovm637KexRH3RmuftDWV+GZ4W3WkV7U53Ryo5E804t/wAjKwsrh4ndFdp94/tgZjPY2DF5wrx5xN/+r/DVY9M0d2sTYZeqKtr4a76jo9Od5j0zR3axNg1RVt/B9R0enO8x6Zo7tYmwaoq2/g+o6PTneY9M0d2sTYNUVbfwfUdHpzvMemaO7WJsGqKtv4PqOj053mPTNHdrE2DVFW38H1HR6c7zHpmju1ibBqirb+D6jo9Od5j0zR3axNg1RVt/B9R0enO8x6Zo7tYmwaoq2/g+o6PTneY9M0d2sTYNUVbfwfUdHpzvMemaO7WJsGqKtv4PqOj053mPTNHdrE2DVFW38H1HR6c7zHpmju1ibBqirb+D6jo9Od5j0zR3axNg1RVt/B9R0enO8x6Zo7tYmwaoq2/g+o6PTneY9M0d2sTYNUVbfwfUdHpzvMemaO7WJsGqKtv4PqOj053mPTNHdrE2DVFW38H1HR6c7zHpmju1ibBqirb+D6jo9Od5j0zR3axNg1RVt/B9R0enO9kU3DWnc6z2Pj8bI5E+Gf8AIrr6KxY/bMSuwv8A9Dl6ptXEx8/7ckFHWRTRceN6Pb1ovN5pzovma/Ewq8ObVxZucHHw8anrYdV4XytaAeOdZD2Iu8mbMdzlVSyIsrmbqT14AAI3wk4OtkjWWFvFkS6uYiZpOuydr9TZZPOzRMUYk93D+mj6T6KpxInFwotV948/74oQbxydgFgFgFgFgFgFgFgFgFgFgFgFgFgFgFgFgFgFgFmRQ1ssFQj43q1ydXMqdSp0oV4uFRi09WuLwvy+PiYFfXw5tP8AvF0ng/hllXScZPsvbZJGX5l608FOZzeVqwK7fafB3HR+fpzeH1o7pjxj/fZtTFZ7Hldd3kWUx3K6p71BJEAAAAHPuF9AkOFeM1LNmTjp4Ov9pPjZfxHQ9H43aYVp8Y7uTj+l8tGFj9aPCrv/AJ+/P+WjM5qrALALALALALALALALALALALALALALALALALALALNlwewitPhVj72aq8STxa7n+GZfQxs3gRjYU0/fxj8s3o/Mzl8xTX9vCfxPLxdWOTd8xV5y1U8PXgAAAAIvw+jT+Cid0o9W+itv/qhtOip/XVHs0fTtETh0Ve/GP6Qk3bmbALALALALALALALALALALALALALALALALALALALALN9jJN1qYGg0NtrTFdBcn2jnodbLw9eAAAAAiHD+oTixRdP2pF8E/pT/b4G36Ko/dX/DQdOYndRR+Z/6Q83Ln7ALALALALALALALALALALALALALALALALALALALPWtVXIiJdXKiInWq5kPJmI75IpmZtHi6DiizrQ57WVTrNUUJFM3p+JrqZ+zbVR91omgAAAFE0rWQq9yo1rUVzlXoRD2mmapimPGXlVUUUzVV4Q5fhrCC1GEXS8yLmYi/danMn7+qnU5bBjBw4o3/lxubx5x8Wa934YRcxrALALALALALALALALALALALALALALALALALALALJNwHwQstek7k/lwrdL/fk6E9OfzsazpPMxh4fZx4zw/tt+iMnOJi9rV+2n5n+uTopzjqwCy+LqJxV5oTT5LaoSReHrxh4QwrBTsvLIjV6Got3L5NTOXYOXxMWf0RyUY2ZwsGL1zz3IHwg4QvqncVEWOJFujL53r0K7Z+pvspkqcDvnvq/3g5zO56rMfpjup8vP88mluZrAsXBYuCxcFi4LFwWLgsXBYuCxcFi4LFwWLgsXBYuCxcFi4LFwWLgs9YiufxURXKvMiJdV9EE90XkiLzaPFJsB8D5pXo6dFhj5+Kv9b/JPu+a5/A1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" alt="">
+
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container speed">
+              <div>
+                <h1 class="speed-title">Work at the speedof <br> thought</h1>
+                <p class="speed-desc">Tools, tutorials, design and innovation experts, all <br> in one place! The most intuitive way to imagine <br> your next user experience.</p>
+                <button class="speed-btn">Get started</button>
+              </div>
+              <img class="speed-rasmm" src="./css/images/main1.png" alt="">
+            </div>
+
+        </section>
+
+        <section id="specs">
+             <div class="container spec">
+                <h2 class="spec-h">Product  was Built Specifically <br> for You</h2>
+
+               <div class="spec-cards">
+                 <div class="spec-card">
+                  <img class="spec-rasm" src="./css/images/spec1.png" alt="">
+                  <h2 class="spec-title">First click tests</h2>
+                  <p class="spec-desc">While most people enjoy <br> casino gambling,</p>
+                </div>
+
+                  <div class="spec-card">
+                  <img class="spec-rasm" src="./css/images/spec2.png" alt="">
+                  <h2 class="spec-title">Design surveys</h2>
+                  <p class="spec-desc">Sports betting, lottery and <br> bingo playing for the fun</p>
+                </div> 
+
+                  <div class="spec-card">
+                  <img class="spec-rasm" src="./css/images/spec3.png" alt="">
+                  <h2 class="spec-title">Preference tests</h2>
+                  <p class="spec-desc">The Myspace page defines <br> the individual.</p>
+                </div>
+
+                  <div class="spec-card">
+                  <img class="spec-rasm" src="./css/images/spec4.png" alt="">
+                  <h2 class="spec-title">Five second tests</h2>
+                  <p class="spec-desc">Personal choices and the <br> overall personality of the <br> person. </p>
+                </div>
+               </div>
+               <button class="spec-btn">SIGN UP NOW</button>
+            </div>
+        </section>
+
+        <section id="gem">
+            <div class="container gems">
+                <div class="gem-card">
+                    <h4 class="gem-titlee">Effortless Validation for</h4>
+                    <h2 class="gem-title">Management</h2>
+                    <p class="gem-desc">The Myspace page defines the individual, his or her <br> characteristics, traits, personal choices and the overall <br> personality of the person. </p>
+                    <h4>Accessory makers</h4>
+                    <p class="gem-desc">While most people enjoy casino gambling, sports betting, <br> lottery and bingo playing for the fun</p>
+                    <h4>Alterationists</h4>
+                    <p class="gem-desc">If you are looking for a new way to promote your business <br> that won’t cost you more money, </p>
+                </div>
+                <img class="gem-rasm" src="./css/images/gem.png" alt="">
+            </div>
+
+            <div class="container support">
+                <img class="support-rasm1" src="./css/images/foks.png" alt="">
+                <div class="support-card">
+                  <h4 class="support-titlee">Easier decision making for</h4>
+                  <h2 class="support-title">Customer Support</h2>
+                  <p class="support-desc">The Myspace page defines the individual, his or her <br> characteristics, traits, personal choices and the overall <br> personality of the person. </p>
+
+                  <div class="support-card2">
+                    <img class="s" src="./css/images/s1.png" alt="">
+                    <p>Never worry about overpaying for your <br> energy again. </p>
+                  </div>
+
+                  <div class="support-card2">
+                    <img class="s" src="./css/images/s2.png" alt="">
+                    <p>We will only switch you to energy companies <br> that we trust and will treat you right</p>
+                  </div>
+
+                  <div class="support-card2">
+                    <img class="s" src="./css/images/s3.png" alt="">
+                    <p>We track the markets daily and know where the <br> savings are.</p>
+                  </div>
+
+                </div>
+            </div>
+
+            <div class="container opt">
+                <div class="opt-card">
+                  <h4 class="opt-titlee">Optimisation for</h4>
+                  <h2 class="opt-title">Collaborative</h2>
+                  <p class="opt-desc">Few would argue that, despite the advancements of <br> feminism over the past three decades, women still face a <br> double standard when it comes to their behavior. </p>
+                  <h4 class="opt-titlee">Accessory makers</h4>
+                  <p class="opt-desc">While most people enjoy casino gambling, sports betting, <br> lottery and bingo playing for the fun</p>
+                  <h4 class="opt-titlee">Alterationists</h4>
+                  <p class="opt-desc">If you are looking for a new way to promote your business <br> that won’t cost you more money, </p>
+                </div>
+                <img class="opt-rasm" src="./css/images/woon.png" alt="">
+            </div>
+
+        </section>
+
+        <section id="proc">
+            <div class="procss">
+              <h2 class="proc-title">Quick & Easy Process</h2>
+              <p class="proc-desc">Do you require some help for your project: Conception workshop, <br>prototyping, marketing strategy, landing page, Ux/UI?</p>
+              <div class="container proc-card">
+               <div class="card-">
+                <img class="prog-rasm1" src="./css/images/proc1.png" alt="">
+                <p>I can take care of your pitch</p>
+               </div>
+
+                <div class="card-">
+                <p>I can prototype your app</p>
+                <img class="prog-rasm1" src="./css/images/proc2.png" alt="">
+               </div> 
+
+              </div>
+
+              <div class="container proc-2">
+                <div class="proc-card2">
+                 <p>I can design you website</p>
+                 <img src="./css/images/proc3.png" alt="">
+                </div>
+
+                 <div class="proc-card2">
+                <img src="./css/images/proc4.png" alt="">
+                 <p>I can help marketing strategy</p>
+                </div>
+
+              </div>
+                <button class="proc-btn">Contact our expert</button>
+            </div>
+        </section>
+
+
+        <section id="cont">
+            <div class="container cont">
+                <h2>Contents Strategies</h2>
+                <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+                <div class="cont-card">
+
+                 <div class="cont-1">
+                  <img class="cont-rasm" src="./css/images/h1.png" alt="">
+                  <p>By Wahid Ari |  03 March 2019</p>
+                  <h5 class="cont-title">Increasing Prosperity <br> With Positive Thinking</h5>
+                 </div>
+
+                 <div class="cont-1">
+                  <img class="cont-rasm" src="./css/images/h2.png" alt="">
+                  <p>By Wahid Ari |  03 March 2019</p>
+                  <h5 class="cont-title">Motivation Is The First Step To Success</h5>
+                 </div>
+
+                <div class="cont-1">
+                  <img class="cont-rasm" src="./css/images/h3.png" alt="">
+                  <p>By Wahid Ari |  03 March 2019</p>
+                  <h5 class="cont-title">Success Steps For Your <br> Personal Or Business</h5>
+                 </div>
+
+
+                </div>
+            </div>
+
+            <div class="container pris">
+             <h2 class="pris-titlee">Price Table</h2>
+             <p class="pris-desc">We offer competitive price</p>
+             <div class="pris-cards">
+
+              <div class="pris-card">
+                <h3 class="pris-title">Free</h3>
+                <p class="pris-title">Brief price description</p>
+                <img class="pris-title" src="./css/images/pris1.png" alt="">
+                <h3 class="pris-title">Only 2 Operators</h3>
+                <h3 class="pris-title">Notifications</h3>
+                <h3 class="pris-title">Landing Pages</h3>
+                <button class="pris-btn">Order Now</button>
+              </div>
+
+                <div class="pris-card1">
+                <h3 class="pris-titl">Standard</h3>
+                <p class="pris-titl">Brief price description</p>
+                <img class="pris-titl" src="./css/images/pris2.png" alt="">
+                <h3 class="pris-titl">5+ Operators</h3>
+                <h3 class="pris-titl">Notifications</h3>
+                <h3 class="pris-titl">Landing Pages</h3>
+                <button class="pris-bt">Order Now</button>
+              </div>
+
+                <div class="pris-card">
+                <h3 class="pris-title">Free</h3>
+                <p class="pris-title">Brief price description</p>
+                <img class="pris-title" src="./css/images/pris1.png" alt="">
+                <h3 class="pris-title">Only 2 Operators</h3>
+                <h3 class="pris-title">Notifications</h3>
+                <h3 class="pris-title">Landing Pages</h3>
+                <button class="pris-btn">Order Now</button>
+              </div>
+
+             </div>
+            </div>
+
+            <div class="container say">
+             <h2 class="say-title">What Clients Say</h2>
+             <p class="say-desc">Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics </p>
+
+             <div class="say-cards">
+              <div class="say-card">
+                <img class="say-rasm" src="./css/images/no1.png" alt="">
+                <p class="sayy-desc">Product helps you see how many <br>more days you need to work to <br> reach your financial goal.</p>
+              <div class="no">
+              <img class="no-ti" src="./css/images/elis1.png" alt="">
+              <div>
+               <h5 class="no-title">Wahid Ari</h5>
+               <p class="no-titl">Designer</p>
+              </div>
+             </div>
+              </div>
+
+               <div class="say-card">
+                <img class="say-rasm" src="./css/images/no1.png" alt="">
+                <p class="sayy-desc">Product helps you see how many <br>more days you need to work to <br> reach your financial goal.</p>
+              <div class="no">
+              <img class="no-ti" src="./css/images/elis2.png" alt="">
+              <div>
+               <h5 class="no-title">Wahid Ari</h5>
+               <p class="no-titl">Designer</p>
+              </div>
+             </div>
+              </div>
+
+               <div class="say-card">
+                <img class="say-rasm" src="./css/images/no1.png" alt="">
+                <p class="sayy-desc">Product helps you see how many <br>more days you need to work to <br> reach your financial goal.</p>
+              <div class="no">
+              <img class="no-ti" src="./css/images/elis3.png" alt="">
+              <div>
+               <h5 class="no-title">Wahid Ari</h5>
+               <p class="no-titl">Designer</p>
+              </div>
+             </div>
+              </div>
+
+             </div>
+
+            </div>
+
+            <div class="container bus">
+               <div>
+                <h2 class="bus-title">Join 100 Compannies who <br> boost their business with <br> Product</h2>
+              <button class="bus-btn">Get This</button>
+               </div>
+               <img class="bus-rasm" src="./css/images/nov1.png" alt="">
+            </div>
+
+        </section>
+
+
+
+    </main>
+</body>
+</html> 

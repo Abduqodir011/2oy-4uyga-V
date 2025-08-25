@@ -1,0 +1,22 @@
+#hero{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color: white; 
+}
+#specs{
+    background-image: url(../images/Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+#gem{
+    padding-bottom: 70px;
+}
+#proc{
+    background-image: url(../images/lesson.png);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
